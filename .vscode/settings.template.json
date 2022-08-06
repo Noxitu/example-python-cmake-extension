@@ -1,0 +1,12 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/.build",
+    "cmake.configureSettings": {
+        "CMAKE_MODULE_PATH": "${workspaceFolder}/.conan",
+        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "${workspaceFolder}/editable"
+    },
+    "python.testing.pytestArgs": [
+        "my_package/tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

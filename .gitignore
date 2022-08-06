@@ -1,0 +1,11 @@
+/.*/
+/build/
+
+!/.vscode/
+/.vscode/*
+!/.vscode/settings.template.json
+
+__pycache__/
+*.egg-info/
+build/
+dist/
